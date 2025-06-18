@@ -226,7 +226,7 @@ class _AddMassaPageState extends State<AddMassaPage> {
     setState(() => _isLoading = true);
     
     final response = await http.delete(
-      Uri.parse('http://26.145.22.183/api/Massas/excluir_massa.php?id=$id'),
+      Uri.parse('http://11.111.11.111/api/Massas/excluir_massa.php?id=$id'),
       headers: {'Accept': 'application/json'},
     );
 
