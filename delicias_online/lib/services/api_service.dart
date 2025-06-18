@@ -5,7 +5,7 @@ import 'package:delicias_online/models/product_type.dart';
 import 'package:intl/intl.dart';
 
 class ApiService {
-  static const String baseUrl = "http://26.145.22.183/api"; // Substitua pelo seu IP
+  static const String baseUrl = "http://11.111.11.111/api"; // Substitua pelo seu IP
   static const Duration timeout = Duration(seconds: 30);
 
     static Future<Map<String, dynamic>> login(String email, String senha) async {
