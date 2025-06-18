@@ -4,7 +4,7 @@ import 'package:delicias_online/models/FormatoModel.dart';
 import 'package:delicias_online/models/session.dart';
 
 class FormatoService {
-  static const String baseUrl = "http://26.145.22.183/api/Formato"; // Substitua pelo seu IP real
+  static const String baseUrl = "http://11.111.11.111/api/Formato"; // Substitua pelo seu IP real
   static const Duration timeout = Duration(seconds: 30);
 
   static Future<List<FormatoModel>> getFormatosPorConfeitaria(int idConfeitaria) async {
