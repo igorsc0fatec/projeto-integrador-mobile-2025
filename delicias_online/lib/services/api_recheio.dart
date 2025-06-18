@@ -4,7 +4,7 @@ import 'package:delicias_online/models/RecheioModel.dart';
 import 'package:delicias_online/models/session.dart';
 
 class RecheioService {
-  static const String baseUrl = "http://26.145.22.183/api/Recheio"; // Substitua pelo seu IP real
+  static const String baseUrl = "http://11.111.11.111/api/Recheio"; // Substitua pelo seu IP real
   static const Duration timeout = Duration(seconds: 30);
 
   static Future<List<RecheioModel>> getRecheiosPorConfeitaria(int idConfeitaria) async {
