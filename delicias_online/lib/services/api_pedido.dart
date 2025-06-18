@@ -5,7 +5,7 @@ import 'package:delicias_online/models/PedidoModel.dart';
 import 'package:delicias_online/models/session.dart';
 
 class PedidoService {
-  static const String baseUrl = "http://26.145.22.183/api/Pedido"; // Substitua pelo seu IP
+  static const String baseUrl = "http://11.111.11.111/api/Pedido"; // Substitua pelo seu IP
   static const Duration timeout = Duration(seconds: 30);
 
   // Método para buscar todos os pedidos de uma confeitaria
