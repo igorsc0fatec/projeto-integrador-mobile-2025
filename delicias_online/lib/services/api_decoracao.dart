@@ -4,7 +4,7 @@ import 'package:delicias_online/models/DecoracaoModel.dart';
 import 'package:delicias_online/models/session.dart';
 
 class DecoracaoService {
-  static const String baseUrl = "http://26.145.22.183/api/Decoracao"; // Substitua pelo seu IP
+  static const String baseUrl = "http://11.111.11.111/api/Decoracao"; // Substitua pelo seu IP
   static const Duration timeout = Duration(seconds: 30);
 
   static Future<List<DecoracaoModel>> getDecoracoesPorConfeitaria(int idConfeitaria) async {
