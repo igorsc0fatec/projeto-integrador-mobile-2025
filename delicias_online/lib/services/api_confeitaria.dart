@@ -10,7 +10,7 @@ import 'package:delicias_online/models/TipoTelefoneModel.dart';
 import 'package:delicias_online/models/session.dart';
 
 class ConfeitariaService {
-  static const String baseUrl = "http://26.145.22.183/api/Confeitaria";
+  static const String baseUrl = "http://11.111.11.111/api/Confeitaria";
   static const Duration timeout = Duration(seconds: 30);
 
   // Buscar dados da confeitaria
