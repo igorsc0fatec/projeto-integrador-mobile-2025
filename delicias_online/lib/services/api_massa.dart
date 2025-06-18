@@ -4,7 +4,7 @@ import 'package:delicias_online/models/MassaModel.dart';
 import 'package:delicias_online/models/session.dart';
 
 class MassaService {
-  static const String baseUrl = "http://26.145.22.183/api/Massas"; // Substitua pelo seu IP
+  static const String baseUrl = "http://11.111.11.111/api/Massas"; // Substitua pelo seu IP
   static const Duration timeout = Duration(seconds: 30);
 
   // Método para buscar massas de uma confeitaria
