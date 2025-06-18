@@ -228,7 +228,7 @@ class _AddFormatoPageState extends State<AddFormatoPage> {
     setState(() => _isLoading = true);
     
     final response = await http.delete(
-      Uri.parse('http://26.145.22.183/api/Formato/excluir_formato.php?id=$id'),
+      Uri.parse('http://11.111.11.111/api/Formato/excluir_formato.php?id=$id'),
       headers: {'Accept': 'application/json'},
     );
 
