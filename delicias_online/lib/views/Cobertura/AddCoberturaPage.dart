@@ -229,7 +229,7 @@ class _AddCoberturaPageState extends State<AddCoberturaPage> {
     setState(() => _isLoading = true);
     
     final response = await http.delete(
-      Uri.parse('http://26.145.22.183/api/Coberturas/excluir_cobertura.php?id=$id'),
+      Uri.parse('http://11.111.11.111/api/Coberturas/excluir_cobertura.php?id=$id'),
       headers: {'Accept': 'application/json'},
     );
 
