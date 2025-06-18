@@ -4,7 +4,7 @@ import 'package:delicias_online/models/CoberturaModel.dart';
 import 'package:delicias_online/models/session.dart';
 
 class CoberturaService {
-  static const String baseUrl = "http://26.145.22.183/api/Coberturas"; // Substitua pelo seu IP
+  static const String baseUrl = "http://11.111.11.111/api/Coberturas"; // Substitua pelo seu IP
   static const Duration timeout = Duration(seconds: 30);
 
   // Método para buscar coberturas de uma confeitaria
