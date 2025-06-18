@@ -226,7 +226,7 @@ class _AddRecheioPageState extends State<AddRecheioPage> {
     setState(() => _isLoading = true);
     
     final response = await http.delete(
-      Uri.parse('http://26.145.22.183/api/Recheio/excluir_recheio.php?id=$id'),
+      Uri.parse('http://11.111.11.111/api/Recheio/excluir_recheio.php?id=$id'),
       headers: {'Accept': 'application/json'},
     );
 
