@@ -105,7 +105,7 @@ class _AddProdutoPageState extends State<AddProdutoPage> {
       
       if (confeitariaId != null) {
         final response = await http.get(
-          Uri.parse('http://26.145.22.183/api/TiposProduto/tipos_produto.php?id_confeitaria=$confeitariaId'),
+          Uri.parse('http://11.111.11.111/api/TiposProduto/tipos_produto.php?id_confeitaria=$confeitariaId'),
         );
         
         if (response.statusCode == 200) {
