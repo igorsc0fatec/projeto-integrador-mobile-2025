@@ -215,7 +215,7 @@ class _AddDecoracaoPageState extends State<AddDecoracaoPage> {
     if (confirmar != true) return;
 
     final response = await http.delete(
-      Uri.parse('http://26.145.22.183/api/Decoracao/excluir_decoracao.php?id=$id'),
+      Uri.parse('http://11.111.11.111/api/Decoracao/excluir_decoracao.php?id=$id'),
       headers: {'Accept': 'application/json'},
     ).timeout(const Duration(seconds: 10));
 
